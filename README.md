@@ -70,4 +70,4 @@ Please ensure your code adheres to the style guide and passes all tests.
 
 ## Contact
 
-If you encounter any issues, feel free to open an issue or reach out to me [via email](muhammed@kartal.dev).
+If you encounter any issues, feel free to open an issue or reach out to me [via email](kartal.dev).
