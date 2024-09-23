@@ -124,7 +124,7 @@ class ExcelCopyApp(QWidget):
 
         layout = QVBoxLayout()
 
-        background_image_path = "C:/Users/Muhammed Kartal/Desktop/abstract-background-design-perfect-landing-page-background-other-you-want_288336-2.webp"
+        background_image_path = "Logo/abstract-background-design-perfect-landing-page-background-other-you-want_288336-2.webp"
         palette = self.palette()
         palette.setBrush(QPalette.Background, QBrush(QPixmap(background_image_path).scaled(self.size(), Qt.IgnoreAspectRatio, Qt.SmoothTransformation)))
         self.setPalette(palette)
