@@ -118,7 +118,7 @@ class ExcelCopyApp(QWidget):
     def initUI(self):
         self.setWindowTitle("Excel Copy System")
         self.setWindowIcon(
-            QIcon("C:/Users/Muhammed Kartal/Desktop/Codes/WebApp/4_attendance_app/Logo/desktop-footer-logo@2x.png")
+            QIcon("Logo/desktop-footer-logo@2x.png")
         )  # Replace with the correct path to your icon file
         self.setMinimumWidth(600)
 
@@ -131,7 +131,7 @@ class ExcelCopyApp(QWidget):
 
         # Logo Label
         logo_label = QLabel(self)
-        logo_pixmap = QPixmap("C:/Users/Muhammed Kartal/Desktop/Codes/WebApp/4_attendance_app/Logo/desktop-footer-logo@2x.png")
+        logo_pixmap = QPixmap("Logo/desktop-footer-logo@2x.png")
         logo_label.setPixmap(logo_pixmap.scaled(540, 550, aspectRatioMode=True))
         layout.addWidget(logo_label, alignment=QtCore.Qt.AlignHCenter)
 
