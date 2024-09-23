@@ -116,7 +116,7 @@ class ExcelCopyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Haliç Üniversitesi Daire Başkanlığı")
+        self.setWindowTitle("Excel Copy System")
         self.setWindowIcon(
             QIcon("C:/Users/Muhammed Kartal/Desktop/Codes/WebApp/4_attendance_app/Logo/desktop-footer-logo@2x.png")
         )  # Replace with the correct path to your icon file
